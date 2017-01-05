@@ -1,0 +1,40 @@
+{
+  "name": "full-stack-react-typescript",
+  "version": "0.0.0",
+  "description": "Example project on creating a full stack react typescript application",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtmthf/full-stack-react-typescript.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --content-base dist/"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Jack Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtmthf/full-stack-react-typescript/issues"
+  },
+  "homepage": "https://github.com/jtmthf/full-stack-react-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.42",
+    "@types/react": "^0.14.38",
+    "@types/react-dom": "^0.14.17",
+    "@types/webpack": "^1.12.34",
+    "ts-loader": "^0.8.2",
+    "ts-node": "^1.3.0",
+    "tslint": "^3.15.1",
+    "tslint-react": "^1.0.0",
+    "typescript": "^2.0.3",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.8"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
